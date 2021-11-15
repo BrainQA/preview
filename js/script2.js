@@ -26,7 +26,7 @@ const obj = {
 };
 // console.log(obj.name);
 // console.log(obj[name]); //ошибка name is not defined
-console.log(obj["name"]);
+console.log(obj[name]);
 
 let arr = ['plum.png', 'orange.jpg', 6, 'apple.bmp', {},
     []
