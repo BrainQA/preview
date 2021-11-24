@@ -80,3 +80,28 @@ const video = ['youtube', 'vimeo', 'rutube'],
     interrnet = [...video, ...blogs, 'vk', 'facebook'];
 
 console.log(interrnet);
+
+function log(a, b, c) {
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
+
+const num = [2, 5, 7];
+log(...num);
+
+const array = ["a", "b"];
+
+const newArray2 = [...array];
+console.log(newArray2);
+
+const q = {
+    one: 1,
+    two: 2
+};
+
+const newObj = {...q };
+newObj.one = 8;
+
+console.log(newObj);
+console.log(q);
